@@ -8,6 +8,7 @@ import Box from "../components/Box";
 // Image
 import icon1 from "../assets/img/icon-developpement-durable.png";
 import icon2 from "../assets/img/display.png";
+import Footer from "../components/Footer";
 
 
 const Home = () => {
@@ -36,6 +37,7 @@ const Home = () => {
                     />
                 </section>
             </main>
+            <Footer />
         </div>
     );
 };
