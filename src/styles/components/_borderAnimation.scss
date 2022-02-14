@@ -21,22 +21,22 @@
     font-size: 13px;
   }
 
-}
-@keyframes border {
-  0%{
-    transform: translateX(0);
-  }
-  25%{
-    transform: translateX(18em);
-  }
-  50%{
-    transform: translateX(0);
-  }
-  75%{
-    transform: translateX(-18em);
-  }
-  100%
-  {
-    transform: translateX(0);
+  @keyframes border {
+    0%{
+      transform: translateX(0);
+    }
+    25%{
+      transform: translateX(18em);
+    }
+    50%{
+      transform: translateX(0);
+    }
+    75%{
+      transform: translateX(-18em);
+    }
+    100%
+    {
+      transform: translateX(0);
+    }
   }
 }
