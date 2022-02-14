@@ -1,7 +1,7 @@
 /* Navigation */
 
 .navigation{
-  z-index: 1;
+  z-index: 3;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
   position: fixed;
@@ -11,6 +11,15 @@
   height: 4em;
   transition: 0.5s ease-in-out;
   background-color: white;
+
+  @media screen and (max-width: 1400px){
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 600px){
+    font-size: 13px;
+  }
+
 
   ul{
     height: 100%;
@@ -41,9 +50,4 @@
   .active::after{
     width: 100%;
   }
-
-
-
-
-
 }

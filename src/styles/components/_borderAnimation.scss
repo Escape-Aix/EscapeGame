@@ -11,6 +11,16 @@
   background: -webkit-linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(51,138,255,1) 100%);
   background: linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(51,138,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbfbfb",endColorstr="#338aff",GradientType=1);
+
+  @media screen and (max-width: 1400px){
+    font-size: 16px;
+  }
+
+
+  @media screen and (max-width: 600px){
+    font-size: 13px;
+  }
+
 }
 @keyframes border {
   0%{

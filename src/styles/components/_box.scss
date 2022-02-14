@@ -6,6 +6,16 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 3em;
+
+  @media screen and (max-width: 1400px){
+    font-size: 16px;
+  }
+
+
+  @media screen and (max-width: 600px){
+    font-size: 13px;
+  }
+
 }
 .box{
   display: flex;
@@ -16,8 +26,8 @@
   padding: 2em;
 
   img{
-    width: 200px;
-    height: 200px;
+    width: 10em;
+    height: 10em;
   }
 
   .box-title{

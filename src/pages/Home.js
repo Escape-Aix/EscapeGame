@@ -18,22 +18,32 @@ const Home = () => {
             <Navigation />
             <Presentation />
             <main className={"main"}>
-                <Introduction /> {/* For introduction */}
+                <Introduction
+                    firstTitle={"Notre entreprise de création"}
+                    mainTitle={"d'Escape Game Numérique"}
+                    description={<text>
+                        Escape Aix est une start-up situé à Aix-en-Provence,<br/>
+                        vous proposant de nombreux escape game immersif en ligne.
+                    </text>}
+
+
+                /> {/* For introduction */}
                 <BorderAnimation /> {/* For border animation */}
                 <section className={"container"}>
                     <Box title={"Pédagogique"} link={icon1}
-                         description={
-                             "Lorem Ipsum is simply dummy text of the printing and typesetting\n" +
-                             "industry.\n" + "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,\n" +
-                             "when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-                         }
+                         description={<text>
+                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </text>}
+
                     />
                     <Box title={"Numérique"} link={icon2}
-                         description={
-                             "Lorem Ipsum is simply dummy text of the printing and typesetting\n" +
-                             "industry.\n" + "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,\n" +
-                             "when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-                         }
+                         description={<text>
+                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                         </text>}
                     />
                 </section>
             </main>
