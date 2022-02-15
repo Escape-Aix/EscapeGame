@@ -37,6 +37,17 @@ const Scenarios = () => {
                             alors que la multinational promet de les faire disparaitre de manière non polluante grâce à leur technologie « révolutionnaire ».
                         </text>
                     }
+                    moreInfos={
+                        <text>
+                            Infiltrez-vous dans le réseaux d'RACleaner, en résolvant différents énigmes. <br/>
+                            Elles sont essentielles pour résoudre cette rumeur.<br/><br/>
+                            Conseils avant de jouer :<br/>
+                            <ul>
+                                <li>Municez-vous d'une feuille pour noter les informations</li>
+                                <li>Vous pouvez réaliser cet escape game avec d'autres membres</li>
+                            </ul>
+                        </text>
+                    }
                 />
             </main>
             <Footer />

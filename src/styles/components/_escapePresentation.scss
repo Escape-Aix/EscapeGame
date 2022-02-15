@@ -46,25 +46,8 @@
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
-.first img:hover{
+.first img:hover {
   transform: scale(1.05);
-}
-.first::before{
-  position: absolute;
-  content: "Nouveau !";
-  display: flex;
-  z-index: 5;
-  justify-content: center;
-  align-content: center;
-  right: 0;
-  top: 45%;
-  color: white;
-  letter-spacing: 0.1em;
-  width: 6em;
-  height: 1.5em;
-  padding: 0 1em 0 1em;
-  font-size: 0.8em;
-  background-color: rgb(254, 168, 20);
 }
 
 .description{
@@ -105,6 +88,17 @@
 .first .player{
   color: rgb(254, 168, 20);
   border: 0.1em solid rgb(254, 168, 20);
+}
+.first .play{
+  color: white;
+  background-color: rgb(254, 168, 20);
+  border: 0.1em solid rgb(254, 168, 20);
+  transition: 0.2s ease-in-out;
+
+  &:hover{
+    color: rgb(254, 168, 20);
+    background-color: white;
+  }
 }
 .para-first{
   margin-left: 3em;

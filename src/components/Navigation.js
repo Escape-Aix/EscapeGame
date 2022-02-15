@@ -6,22 +6,22 @@ const Navigation = () => {
         <nav className={"navigation"}>
             <ul>
                 <li>
-                    <NavLink to={"/"}>
+                    <NavLink to={"/"} onClick={window.scrollTo(0, 0)}>
                         Accueil
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={"/nos-scenarios"}>
+                    <NavLink to={"/nos-scenarios"} onClick={window.scrollTo(0, 0)}>
                         Nos scénarios
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={"/a-propos"}>
+                    <NavLink to={"/a-propos"} onClick={window.scrollTo(0, 0)}>
                         A propos
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={"/contact"}>
+                    <NavLink to={"/contact"} onClick={window.scrollTo(0, 0)}>
                         Contact
                     </NavLink>
                 </li>
