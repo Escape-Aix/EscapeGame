@@ -32,17 +32,19 @@ const Home = () => {
                 <section className={"container"}>
                     <Box title={"Pédagogique"} link={icon1}
                          description={<text>
-                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                             Notre entreprise réalise des escapes games pédagogiques. En effet, notre slogant est
+                             d'apprendre en jouant, ce qui signifie que vous pourrez augmenter votre culture générale avec nos jeux.
+                             De plus, en raison des diffilcultés liés avec le développement durable, nous nous devons de réaliser des
+                             escapes games numérique en lien avec cette thématique.
                     </text>}
 
                     />
                     <Box title={"Numérique"} link={icon2}
                          description={<text>
-                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                             Nous proposons des escapes games exlusivement numérique. Pourquoi ?
+                             Tout simplement parce qu'il y a aucune limite avec la virtualisation.
+                             Le nombre de participants peut être très variable, entre 1 à aucune limte de joueur.
+                             Autre caractéristque très importante, l'escape game numérique n'a ni de limite temporelle, ni de limite spatiale.
                          </text>}
                     />
                 </section>

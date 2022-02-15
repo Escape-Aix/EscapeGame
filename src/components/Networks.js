@@ -12,7 +12,7 @@ const Networks = () => {
             </div>
             <div className={"twitter"}>
                 <FontAwesomeIcon className={"fontIcon"} icon={faComment}/>
-                <a href={""} target={""}>Contact par twitter</a>
+                <a href={"https://twitter.com/AixEscape"} target={"_blank"}>Contact par twitter</a>
             </div>
         </section>
     );
