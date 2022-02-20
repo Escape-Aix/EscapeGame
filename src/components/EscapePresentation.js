@@ -31,7 +31,7 @@ const EscapePresentation = (props,state) => {
                 <p className={"time"}>{props.time} min</p>
                 <p className={"lang"}>{props.lang}</p>
                 <p className={"player"}>{props.player} joueur(s)</p>
-                <p className={"play"}>Jouer !</p>
+                <a href={"https://view.genial.ly/61ef12452dd7bf001347b3d0/interactive-content-la-chute-des-multinationales"} className={"play"} target={"_blank"} rel={"noreferrer"} >Jouer !</a>
                 <p className={"purpose"}>- {props.firstPurpose}</p>
                 <p className={"purpose"}>- {props.secondPurpose}</p>
             </div>

@@ -21,7 +21,7 @@ const Scenarios = () => {
                 <BorderAnimation />
                 <EscapePresentation
                     link={background1}
-                    title={"La chute des multinationalistes"}
+                    title={"La chute des multinationales"}
                     time={"45"}
                     lang={"Français"}
                     player={"1"}

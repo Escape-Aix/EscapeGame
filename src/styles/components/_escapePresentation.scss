@@ -70,12 +70,13 @@
   border-bottom: 0.1em solid #321fc2;
 
 }
-.first p:not(.purpose){
+.first p:not(.purpose), .first a{
   display: inline-block;
   margin-left:  1em;
   margin-top: 2em;
   padding: 0.5em;
   border-radius: 1em;
+  text-decoration: none;
 }
 .first .time{
   color: green;
