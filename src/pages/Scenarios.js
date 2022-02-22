@@ -43,7 +43,7 @@ const Scenarios = () => {
                             Elles sont essentielles pour résoudre cette rumeur.<br/><br/>
                             Conseils avant de jouer :<br/>
                             <ul>
-                                <li>Municez-vous d'une feuille pour noter les informations</li>
+                                <li>Munissez-vous d'une feuille pour noter les informations</li>
                                 <li>Vous pouvez réaliser cet escape game avec d'autres joueurs</li>
                             </ul>
                         </text>
